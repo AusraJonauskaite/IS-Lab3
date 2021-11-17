@@ -1,0 +1,24 @@
+%Darba atliko AKSfm-21 gr. stud. Aušra Jonauskaitė
+clc;
+clear all;
+close all;
+% Pagrindinė užduotis
+%1.Duomenu paruosimas
+%įėjime paduodamas vektorius x
+x =[0.1:1/22:1];
+%vienas išėjimas 
+d = ((1 + 0.6*sin(2*pi*x/0.7))+(0.3*sin(2*pi*x)))/2;
+figure(1)
+plot(x,d,'k')
+grid on;
+
+%centru c ir spinduliu r reiksmes
+%c pasirenkame ekstremumus is grafiko
+c1 = 0.2;
+c2 = 0.9;
+r1 = 0.15;
+r2 = 0.15;
+
+%isejimo sluoksnio rysio s
+
+
